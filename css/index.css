@@ -23,14 +23,12 @@ a {
     position: absolute;
     top: 0;
     left: 0;
-    /* opacity: 0; */
-    display: none;
-    /* transition: opacity 0.5s ease-in-out; */
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
 }
 
 .container ul li:first-child {
-    /* opacity: 1; */
-    display: block;
+    opacity: 1;
 }
 
 .arrow {
